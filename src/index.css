@@ -15,9 +15,8 @@ code {
 
 
 .Cards {
-	display: flex;
-	grid-template-columns: 100px 150px 200px !important;
-	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 .Card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
