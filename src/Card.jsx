@@ -1,20 +1,16 @@
 import React from "react";
+import CardInfo from "./CardInfo";
+import Img from "./Image";
+
 
 function Card(pros){
     return (
-          <>
-          <div className="Card">
-            <div className="CardImag">
-                <img src={pros.imgsrc} />
+        <>
+          <div className="Card">           
+                <Img Isrc={pros.imgsrc}/>
+                <CardInfo title={pros.ctitle} des={pros.cdes} url ={pros.curl} />
             </div>
-            <div className="CardInfo">
-                <h1>{pros.ctitle}</h1>
-                <p>{pros.cdes}</p>
-                <a href={pros.curl}>Watch Now</a>
-            </div>
-
-          </div>
-          </>
+        </>
     )
 }
 export default Card;
