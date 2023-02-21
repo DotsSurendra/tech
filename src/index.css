@@ -40,14 +40,17 @@ code {
 }
 .CardInfo h1 {
 	color: #41096a;
+  font-family:'Playfair Display', serif;
 }
 .CardInfo p {
 	color: antiquewhite;
 	font-size: 15px;
 	text-align: justify;
-	font-weight: 600;
+	font-weight: 400;
+  font-family:'Playfair Display', serif;
 }
 .CardInfo a {
+  font-family:'Playfair Display', serif;
 	border: 1px solid;
 	padding: 5px;
 	border-radius: 10%;

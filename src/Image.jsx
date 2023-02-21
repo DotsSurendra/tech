@@ -4,7 +4,7 @@ let Img = (prop) => {
     return (
             <>
             <div className="CardImag">
-                <img src ={prop.Isrc} />
+                <img src ={prop.Isrc} alt='not found' />
             </div>
             </>
         );
