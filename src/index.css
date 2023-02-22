@@ -14,31 +14,34 @@ code {
 }
 
 
-.Cards {
+/* .Cards {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-}
+} */
 .Card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: auto;
   text-align: center;
   transition: 0.3s;
-  width: 300px;
   border-radius: 5px;
   border: 1px solid #000;
   background-color: #94b3c6;
   margin-top: 70px;
 }
+.Card:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
 
 .Card img {
-	width: 300px;
+	width: 304px;
 	height: 250px;
   border-radius: 5px 5px 0 0;
 }
 .CardInfo {
 	padding: 10px;
 }
-.CardInfo h1 {
+.CardInfo h2 {
 	color: #41096a;
   font-family:'Playfair Display', serif;
 }
@@ -57,4 +60,9 @@ code {
 	background-color: darkblue;
 	color: antiquewhite;
 	text-decoration: none;
+}
+@media (max-width: 764px) {
+  .Card img {
+    width: 400px;
+  }
 }

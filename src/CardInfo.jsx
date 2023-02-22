@@ -3,11 +3,11 @@ import React from "react";
 let CardInfo =(prop)=>{
      return (
         <>
-        <div className="CardInfo">
-            <h1>{prop.title}</h1>
-            <p>{prop.des}</p>
-            <a href={prop.url}>Watch Now</a>
-        </div>
+            <div className="card-body CardInfo ">
+                <h2 className="card-title text-center">{prop.title}</h2>
+                <p className="card-text text-center">{prop.des}</p>
+                <a href={prop.url} className="btn btn-primary">Watch Now</a>
+            </div>
         </>
      );
 }

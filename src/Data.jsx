@@ -23,5 +23,12 @@ const Data=[
         Ddes:"After a mother's sudden death, chaos and grief collide when four adult siblings return to their traditional father's home for the funeral.",
          curl:'https://www.netflix.com/in/title/81509545'
     }
+    ,
+    {
+        Dimg:'https://occ-0-3997-2433.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABWLIrKiazrBrBpgISnbGQGtJ_ajq5dJTJiAD6NprJtG1OWIJm_QQ07n0s1B1-ZbqrTTSOATLe7OpTdjbWGWEfzlq8Xu5gpNqMZq0.jpg?r=f8f',
+        Dtitle:'Gabbar Is Back',
+        Ddes:"After a vengeful college professor targets corruption in the government, he adopts the name `Gabbar` and becomes a hero to a weary public.",
+         curl:'https://www.netflix.com/in/title/80057278'
+    }
 ];
 export default Data;
