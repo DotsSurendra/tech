@@ -17,7 +17,7 @@ import Img from "./Image";
 function Card(pros){
     return (
         <>
-        <div className="col-12 col-md-3 col-sm-4"> 
+        <div className="col-xl-3 col-lg-3 col-md-4 col-sm-12"> 
           <div className=" Card card  text-center h-400">
             <Img Isrc={pros.imgsrc}/>
             <CardInfo title={pros.ctitle} des={pros.cdes} url ={pros.curl} />

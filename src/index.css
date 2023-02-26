@@ -27,6 +27,7 @@ code {
   border: 1px solid #000;
   background-color: #94b3c6;
   margin-top: 70px;
+  height: 550px;
 }
 .Card:hover{
   transform: scale(1.05);
@@ -34,7 +35,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .Card img {
-	width: 304px;
+	width: 100%;
 	height: 250px;
   border-radius: 5px 5px 0 0;
 }
@@ -44,6 +45,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 .CardInfo h2 {
 	color: #41096a;
   font-family:'Playfair Display', serif;
+  height: 75px
 }
 .CardInfo p {
 	color: antiquewhite;
@@ -51,6 +53,7 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 	text-align: justify;
 	font-weight: 400;
   font-family:'Playfair Display', serif;
+  height: 140px;
 }
 .CardInfo a {
   font-family:'Playfair Display', serif;
@@ -62,7 +65,13 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 	text-decoration: none;
 }
 @media (max-width: 764px) {
-  .Card img {
-    width: 400px;
+
+  .CardInfo h2 {
+    height: 60px;
+    margin-top: 30px;
+  }
+ 
+  .CardInfo p {
+    height: 100px;
   }
 }
